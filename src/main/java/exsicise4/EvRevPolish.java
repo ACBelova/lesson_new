@@ -4,7 +4,7 @@ import java.util.Stack;
 
 public class EvRevPolish {
     public static void main(String[] args) {
-        String[] tokens = {"10","6","9","3","+","-11","*","/","*","17","+","5","+"}; //tokens = ["4","13","5","/","+"];
+        String[] tokens = {"10", "6", "9", "3", "+", "-11", "*", "/", "*", "17", "+", "5", "+"}; //tokens = ["4","13","5","/","+"];
         int value = evalRPN(tokens);    //tokens = ["2", "1", "+", "3", "*"]
         System.out.println(value);
     }
